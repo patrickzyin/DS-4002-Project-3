@@ -1,0 +1,12 @@
+Model                    Accuracy   Macro F1   Speed (ms/img)
+--------------------------------------------------------------
+MobileNetV3-Small          0.8135     0.8240            1.840
+EfficientNet-B0            0.8387     0.8469           10.520
+ResNet-50                  0.8934     0.9009           34.315
+--------------------------------------------------------------
+
+Hypothesis check:
+  Best Accuracy  : ResNet-50
+  Best Macro F1  : ResNet-50
+  Fastest model  : MobileNetV3-Small
+  >=50% goal met : True

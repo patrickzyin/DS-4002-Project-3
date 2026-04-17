@@ -1,0 +1,57 @@
+
+============================================================
+  MobileNetV3-Small
+============================================================
+                     precision    recall  f1-score   support
+
+          Cardboard       0.84      0.88      0.86        69
+      Food Organics       0.80      0.89      0.84        62
+              Glass       0.84      0.83      0.83        63
+              Metal       0.75      0.85      0.80       118
+Miscellaneous Trash       0.73      0.63      0.68        75
+              Paper       0.86      0.79      0.82        75
+            Plastic       0.79      0.72      0.75       138
+      Textile Trash       0.81      0.92      0.86        48
+         Vegetation       0.98      0.97      0.98        65
+
+           accuracy                           0.81       713
+          macro avg       0.82      0.83      0.82       713
+       weighted avg       0.81      0.81      0.81       713
+
+============================================================
+  EfficientNet-B0
+============================================================
+                     precision    recall  f1-score   support
+
+          Cardboard       0.84      0.88      0.86        69
+      Food Organics       0.92      0.89      0.90        62
+              Glass       0.77      0.90      0.83        63
+              Metal       0.78      0.89      0.83       118
+Miscellaneous Trash       0.85      0.63      0.72        75
+              Paper       0.88      0.87      0.87        75
+            Plastic       0.84      0.71      0.77       138
+      Textile Trash       0.82      0.98      0.90        48
+         Vegetation       0.90      0.97      0.93        65
+
+           accuracy                           0.84       713
+          macro avg       0.85      0.86      0.85       713
+       weighted avg       0.84      0.84      0.84       713
+
+============================================================
+  ResNet-50
+============================================================
+                     precision    recall  f1-score   support
+
+          Cardboard       0.90      0.93      0.91        69
+      Food Organics       0.92      0.97      0.94        62
+              Glass       0.90      0.95      0.92        63
+              Metal       0.85      0.92      0.89       118
+Miscellaneous Trash       0.84      0.77      0.81        75
+              Paper       0.94      0.89      0.92        75
+            Plastic       0.88      0.82      0.85       138
+      Textile Trash       0.88      0.94      0.91        48
+         Vegetation       0.98      0.94      0.96        65
+
+           accuracy                           0.89       713
+          macro avg       0.90      0.90      0.90       713
+       weighted avg       0.89      0.89      0.89       713
