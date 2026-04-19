@@ -137,17 +137,3 @@ The notebook is organized into the following sequential sections:
 | 9. Evaluation | Per-class classification reports, normalized confusion matrices, accuracy/F1/speed comparison chart |
 | 10. Summary | Final results table printed to console and saved to `OUTPUTS/summary_results.txt` |
 
-
-## Section 4: Expected Outputs
-
-After a full run, the `OUTPUTS/` folder will contain:
-
-- **`class_distribution.png`** — Bar chart showing the number of images per waste category, confirming that Plastic is the most represented class.
-- **`sample_images.png`** — A 3×3 grid showing one representative image from each of the nine waste categories.
-- **`training_curves.png`** — Six subplots (loss and accuracy for each model) showing per-epoch training and validation metrics, with a dashed vertical line marking the transition to fine-tuning and a red dotted line at the 50% accuracy target.
-- **`confusion_matrices.png`** — Three side-by-side normalized confusion matrices on the test set, one per model, with macro F1 and accuracy annotated in each title.
-- **`model_comparison.png`** — A grouped bar chart comparing accuracy and macro F1 across all three models, with inference speed (ms/image) overlaid on a secondary axis.
-- **`classification_reports.txt`** — Full per-class precision, recall, F1, and support for each model.
-- **`summary_results.txt`** — A summary table identifying the best model by accuracy, best by macro F1, and fastest by inference speed, along with whether the 50% accuracy goal was met.
-
----
