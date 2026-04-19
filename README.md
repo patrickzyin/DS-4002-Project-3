@@ -1,10 +1,5 @@
 # DS 4002 — Project 3: Image Classification of Landfill Waste
 
-**Corner Data Co.**  
-Patrick Yin (Group Leader), Margot Brady, Tarana Ahad  
-DS 4002 | April 2026
-
----
 
 ## Section 0: Project Overview
 
